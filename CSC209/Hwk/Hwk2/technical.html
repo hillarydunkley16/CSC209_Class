@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <meta name="author" content="Hillary Dunkley">
+        <meta name="description" content="Technical Page">
+        <title>Technical Page</title>
+        <link id = "themeStylesheet" rel="stylesheet" type="text/css" href="style1.css">
+        <script>
+            function toggleTheme(){
+                let stylesheet = document.getElementById("themeStylesheet");
+                if (stylesheet.getAttribute("href") == "style1.css"){
+                    stylesheet.setAttribute("href", "style2.css");
+                } else {
+                    stylesheet.setAttribute("href", "style1.css");
+                }
+            }
+            function toggleText(){
+                let text = document.getElementById("readmeText");
+                if (text.style.display === "none"){
+                    text.style.display = "block";
+                } else {
+                    text.style.display = "none";
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <div class = "header">
+            <h1>Technical Page</h1>
+            <h5>2 hrs for technical</h5>
+        </div>
+        <div class = "topnav">
+            <ul>
+                <li><a href="tutorial.html">Tutorial Entry</a></li>
+                <li><a href = "creative.html">Creative Entry</a></li>
+            </ul>
+        </div>
+        <div class = "leftcolumn">
+            <div class = "card">
+                <img src ="Images/sonika-agarwal-NscmHK2T0CE-unsplash.jpg" alt = "bug"style=" width: 100%; height: auto;" >
+                <table id = "schedule">
+                    <caption>What my schedule would be in my ideal world</caption>
+                    <tr>
+                        <th>Time</th>
+                        <th>Activity</th>
+                        <th>Details</th>
+                    </tr>
+                    <tr>
+                        <td>7:00 AM</td>
+                        <td>Morning Routine</td>
+                        <td>Wake up, breakfast, journal</td>
+                    </tr>
+                    <tr>
+                        <td>8:00 AM</td>
+                        <td>Exercise</td>
+                        <td>Yoga, streching, or workout</td>
+                    </tr>
+                    <tr>
+                        <td>9:00 AM</td>
+                        <td>Study/Word</td>
+                        <td>Work on assignments/projects</td>
+                    </tr>
+                    <tr>
+                        <td>12:00 PM</td>
+                        <td>Lunch Break</td>
+                        <td>Eat and relax</td>
+                    </tr>
+                    <tr>
+                        <td>1:00 PM</td>
+                        <td>Skill development</td>
+                        <td>Learn something new</td>
+                    </tr>
+                    <tr>
+                        <td>3:00 PM</td>
+                        <td>Break</td>
+                        <td>Walk, music, or watch TV</td>
+                    </tr>
+                    <tr>
+                        <td>4:00 PM</td>
+                        <td>Creative Work</td>
+                        <td>Write, draw, or design</td>
+                    </tr>
+                    <tr>
+                        <td>6:00 PM</td>
+                        <td>Dinner</td>
+                        <td>Eat and relax</td>
+                    </tr>
+                    <tr>
+                        <td>7:00 PM</td>
+                        <td>Relax</td>
+                        <td>Read, watch a show, or chill</td>
+                    </tr>
+                    <tr>
+                        <td>9:00 PM</td>
+                        <td>Bedtime Routine</td>
+                        <td>Shower, journal, and sleep</td>
+                    </tr>
+                    <tr>
+                        <td>11:00 PM</td>
+                        <td>Sleep</td>
+                        <td>Rest</td>
+                    </tr>
+                </table>
+                <button id="readmeBtn" onClick = "toggleText()">ReadMe</button>
+                <p id="readmeText" style="display: none;">This is the additional content.</p>
+                <button onclick="toggleTheme()">Switch Theme</button>
+            </div>
+        </div>
+        
+    </body>
+</html>

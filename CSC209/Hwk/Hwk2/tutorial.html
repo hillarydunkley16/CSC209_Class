@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <meta name="author" content="Hillary Dunkley">
+        <meta name="description" content="Website layout exercises from CSS tutorial">
+        <title>Tutorial Entry Point</title>
+        <style>
+            *{
+                box-sizing: border-box;
+            }
+            body{
+                font-family: Arial;
+                padding: 10px;
+                background: #f1f1f1;
+            }
+            .header{
+                background-color: white;
+                padding: 20px;
+                text-align: center;
+            }
+            .header h1{
+                font-size: 40px;
+            }
+            .topnav{
+                overflow: hidden;
+                background-color: #333;
+            }
+            .topnav a{
+                float: left;
+                color: #f2f2f2;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                display: block;
+            }
+            .topnav a:hover{
+                background-color: #ddd;
+                color: black;
+            }
+            .leftcolumn{
+                float: left;
+                width: 75%;
+            }
+            .rightcolumn{
+                float: left; 
+                width: 25%;
+                background-color: #f1f1f1;
+                padding-left: 20px;
+            }
+            .card{
+                background-color: white;
+                padding: 20px;
+                margin-top: 20px;
+            }
+            .row::after{
+                content: "";
+                display: table;
+                clear: both;
+            }
+            .footer{
+                padding: 20px; 
+                text-align: center;
+                background: #ddd;
+                margin-top: 20px;
+            }
+            .list_tuts{
+                list-style-type: none;
+                padding: 0;
+            }
+            /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+            @media screen and (max-width: 800px) {
+                .leftcolumn, .rightcolumn {   
+                    width: 100%;
+                    padding: 0;
+                }
+            }
+
+            /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+            @media screen and (max-width: 400px) {
+                .topnav a {
+                    float: none;
+                    width: 100%;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class = "header">
+            <h1>Tutorial Entry Point</h1>
+            <p>This is the entry point for the HTML and CSS tutorials.<br>3 hrs for tutorial</p>
+        </div>
+        <div class = "topnav">
+            <a href = "#html">HTML</a>
+            <a href = "#css">CSS</a>
+            <a href="technical.html">Technical Entry</a>
+            <a href = "creative.html">Creative Entry</a>
+            
+        </div>
+        <div class = "row">
+            <div class = "leftcolumn">
+                <div class="card" id = "html">
+                    <h2>HTML</h2>
+                    <h5>HTML tutorials</h5>
+                    <img src="Images/sonika-agarwal-NscmHK2T0CE-unsplash.jpg" style = "height:200px"/>
+                    <div>
+                        <ul class = "list_tuts">
+                            <li><a href = "Tutorials/classes.html">Classes Tutorial</a></li>
+                            <li><a href = "Tutorials/filepaths.html">Filepaths Tutorial</a></li>
+                            <li><a href = "Tutorials/head.html">Head Element Tutorial</a></li>
+                            <li><a href = "Tutorials/idClasses.html">ID & Classes Tutorial</a></li>
+                            <li><a href = "Tutorials/javascript.html">Javascript Tutorial</a></li>
+                            <li><a href = "Tutorials/layout.html">Layout Tutorial</a></li>
+                            <li><a href = "Tutorials/responsive.html">Responsive Tutorial</a></li>
+                        </ul>
+                        <!-- id & classes html
+                         javascript html
+                         classes
+                         head
+                         layout 
+                         responsive 
+                         filepaths -->
+                   </div>
+                </div>
+                <div class="card" id = "css">
+                    <h2>CSS</h2>
+                    <h5>CSS Tutorials</h5>
+                    <img src="Images/sonika-agarwal-NscmHK2T0CE-unsplash.jpg" style = "height:200px"/>
+                   <div>
+                        <ul class = "list_tuts">
+                            <li><a href = "Tutorials/howto.html">How To CSS</a></li>
+                            <li><a href = "Tutorials/navbar.html">Nav Bar Tutorial</a></li>
+                            <li><a href = "Tutorials/responsive.html">Responsive Tutorial</a></li>
+                        </ul>
+                        <!-- how to
+                         nav bar 
+                          website layout -->
+                   </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class = "footer">
+            <h2>Footer</h2>
+        </div>
+    </body>
+</html>

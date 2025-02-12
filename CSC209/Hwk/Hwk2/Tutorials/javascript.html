@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <meta name="author" content="Hillary Dunkley">
+        <meta name="description" content="JavaScript exercises from HTML tutorial">
+        <script>
+            function changeText() {
+                document.getElementById('text-change').style.color = "red";
+                document.getElementById('text-change').style.fontSize = "30px";
+                document.getElementById('text-change').innerHTML = "JavaScript Tutorial";
+                document.getElementById('text-change').style.backgroundColor = "blue";
+            }
+        </script>
+    </head>
+    <body>
+        <h1 id = "text-change">JavaScript Tutorial</h1>
+        <button type = "button" onclick = "document.getElementById('date').innerHTML = Date()">Click to show date</button>
+        <button type = "button" onclick = "changeText()">Click me!</button>
+        <p id = "date"></p>
+        <a href = "../tutorial.html">Back to tutorial</a>
+    </body>
+</html>
