@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <meta name="author" content="Hillary Dunkley">
+        <script>
+            let alphabet = "abcdefghijklmnopqrstuvwxyz";
+            let vowels = "aeiou";
+            let consonants = "bcdfghjklmnpqrstvwxyz";
+            let fruits = "Apple, Banana, Kiwi"
+            let firstLetter = alphabet.charCodeAt(0);
+            let lastLetter = alphabet.charCodeAt(alphabet.length - 1);
+            let apple = fruits.slice(0, 5);
+            let banana = fruits.slice(7, 13).toUpperCase();
+            let fruitSalad = fruits.slide(0,5).concat(" ", fruits.slice(7, 13).toUpperCase());
+            let allergicFruit = fruits.locateLastIndexOf("Kiwi");
+            let text = "I am allergic to ${allergicFruit}, and I just don't like ${banana}.";
+            document.getElementById('text').innerHTML = text;
+        </script>
+    </head>
+    <body>
+        <h2 id = "text"></h2>
+    </body>
+</html>

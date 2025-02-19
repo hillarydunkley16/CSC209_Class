@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>JavaScript HTML Events</h1>
+<h2>The onclick Attribute</h2>
+
+<p>Click the button to display the date.</p>
+<button onclick="displayDate()">The time is?</button>
+
+<script>
+function displayDate() {
+  document.getElementById("demo").innerHTML = Date();
+  document.getElementById("demo").style.color = "red";
+  document.getElementById("text").innerHTML = "We are the so-called \"Vikings\" from the north.";
+}
+</script>
+
+<p id="demo"></p>
+<p id="text"></p>
+</body>
+</html> 

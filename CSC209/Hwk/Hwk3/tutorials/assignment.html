@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <meta name="author" content="Hillary Dunkley">
+        <meta name="description" content="Assignment">
+        <script>
+            let words = ["apple", "banana", "cherry", "date", "elderberry", "fig", "grape", "honeydew", "kiwi", "lemon", "mango", "nectarine", "orange", "pear", "quince", "raspberry", "strawberry", "tangerine", "ugli", "watermelon"];
+            let word = words[Math.floor(Math.random() * words.length)];
+            function fruitBasket(words){
+                document.getElementById('demo').innerHTML = "there is a " + word + " in the basket";
+            }
+        </script>
+        <body>
+            <h1>What's in the basket?</h1>
+            <button type = "button" onclick = "fruitBasket()">Click Me!</button>
+            <p id = "demo"></p>
+    </head>
+</html>
