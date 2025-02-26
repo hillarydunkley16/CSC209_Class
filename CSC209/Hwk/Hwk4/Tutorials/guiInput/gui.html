@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GUI Input Widgets</title>
+    <link rel="stylesheet" href="css/gui.css">
+</head>
+<body>
+    <label>
+        <input type="checkbox" id="toggleImage"> Show/Hide Image
+    </label>
+    <br>
+    <label>
+        <input type="radio" name="textStyle" value="bold"> Bold
+    </label>
+    <label>
+        <input type="radio" name="textStyle" value="italic"> Italic
+    </label>
+    <label>
+        <input type="radio" name="textStyle" value="normal" checked> Normal
+    </label>
+    <label>
+        <input type="radio" name="textStyle" value="noglasses"> No glasses mode
+    </label>
+    <br>
+    <input type="color" id="bgColorPicker" value="#ffffff"> Change Background Color
+    <input type="color" id="txtColorPicker" value="#000000"> Change Text Color
+    
+    <div id="content">
+        <h2 id="title">Giovanni Boccaccio: A Literary Pioneer of the Italian Renaissance</h2>
+        <p id="text">
+
+            Giovanni Boccaccio (1313–1375) was an Italian writer, poet, and scholar, best known for his masterpiece The Decameron. Born in Certaldo or possibly Florence, he was the illegitimate son of a wealthy merchant. Despite early attempts to follow in his father’s footsteps in banking and law, Boccaccio found his true passion in literature.
+            
+            During his lifetime, Boccaccio witnessed significant historical events, including the Black Death, which deeply influenced The Decameron, a collection of 100 tales told by a group of young people seeking refuge from the plague. This work, celebrated for its wit, humanism, and keen social commentary, played a crucial role in shaping European literature.
+            
+            Boccaccio was also a close friend and admirer of Petrarch, with whom he shared a love for classical antiquity. His later years were dedicated to humanist scholarship, translating and preserving classical texts. His contributions to Renaissance literature and his influence on later writers, including Geoffrey Chaucer, cemented his legacy as one of Italy’s greatest literary figures.</p>
+        <div id = "imgContainer">
+            <h3>Portrait of Giovanni Boccaccio (or is it?)</h3>
+            <img src="images/downloaded_image.jpeg" alt="This is not Giovanni Boccaccio">
+        </div>
+       
+    </div>
+    
+    <script src="js/gui.js"></script>
+</body>
+</html>

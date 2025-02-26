@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/animation.css">
+        <script src = "js/animation.js"></script>
+        <script>
+            var squares = ["redSq", "blueSq", "greenSq", "purpleSq", "blackSq"];
+            var NUM_SQUARES = squares.length;
+        </script>
+    </head>
+    <body>
+        <button id = "moveAllBtn" onclick = moveSquare(squares)>Move all squares</button> <br><br>
+        <div id ="myContainer">
+            <script>
+                createSquare(squares);
+            </script>
+        </div>
+       
+    
+    </body>
+</html>

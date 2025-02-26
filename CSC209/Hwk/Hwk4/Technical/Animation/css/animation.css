@@ -1,0 +1,43 @@
+#myContainer {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    background: rgb(211, 251, 198);
+}
+
+#redSq, #blueSq, #greenSq, #purpleSq, #blackSq ,#orangeSq {
+    width: 50px;
+    height: 50px;
+    position: absolute; 
+}
+
+#redSq {
+    background-color: red;
+    top: 0px;
+    left: 0px;
+}
+
+#blueSq {
+    background-color: blue;
+    top: 350px;
+    left: 350px;
+}
+
+#greenSq {
+    background-color: green;
+    top: 350px;
+    left: 0px;
+}
+
+#purpleSq {
+    background-color: purple; 
+    top: 0px; 
+    left: 350px; 
+}
+
+#blackSq {
+    background-color: black; 
+    top: 175px;
+    left: 0px;
+}
+
