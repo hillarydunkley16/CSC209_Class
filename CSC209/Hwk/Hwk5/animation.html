@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Animation</title>
+        <link rel="stylesheet" type="text/css" href="css/animation.css">
+        <script>
+            var NRPTS = 6; // Ensure NRPTS is defined before loading animation.js
+            var NRSTEPS = 200;
+        </script>
+    </head>
+   
+    <body>
+    <div class="controls"> 
+        <button id="changePos" onclick="reDraw()">Redraw points</button> <br><br>
+    <button id = "move" onclick = "move()">Move</button>
+    <button id = "reset" onclick = "reset()">Reset</button><br><br>
+    <input type = "number" id = "numPoints" min = "0">
+    <button id = "changePoints" onclick = "updateNumPoints()">Change Points</button>
+    <br><br>
+    <label for="duration">Duration (seconds):</label>
+    <input type="number" id="duration" min="1" value="10">
+    <button onclick="updateDuration()">Set Duration</button>
+
+    <select id = "speed">
+        <option value = "slow">slow</option>
+        <option value = "medium">medium</option>
+        <option value = "fast">fast</option>
+    </select>
+    <input type = "checkbox" id = "trace"> Trace/No Trace
+    <input type = "checkbox" id = "frogMode"> Frog Mode
+
+    </div>
+    
+    
+    <canvas id="myCanvas" width="800px" height="800px" style="border:1px solid #d3d3d3;">
+        Your browser does not support the HTML canvas tag.
+    </canvas>
+   
+    <!-- Load the JavaScript file AFTER defining the HTML elements -->
+    <script src="js/animation.js"></script> 
+
+    <!-- Ensure functions are available before using them -->
+    <script>
+        draw();
+      
+    </script> 
+
+    </body>
+</html>

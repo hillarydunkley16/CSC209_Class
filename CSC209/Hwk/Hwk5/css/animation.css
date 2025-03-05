@@ -1,0 +1,51 @@
+/* General Reset */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Canvas Styling */
+canvas {
+    border: 2px solid black;
+    background-color: white;
+    display: block;
+    margin: 20px auto; /* Centering the canvas */
+}
+
+/* Controls Layout */
+.controls {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+/* Input Fields */
+input, select {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Buttons */
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    color: white;
+    background-color: #884aa2;
+}
+
+button:hover {
+    background-color: #4a0465;
+}
+
+/* Checkbox */
+input[type="checkbox"] {
+    transform: scale(1.2);
+    margin-left: 10px;
+}
