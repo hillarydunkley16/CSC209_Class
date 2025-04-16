@@ -1,0 +1,36 @@
+[
+    {
+        "uname": "john",
+        "psw": "examplepassowrd",
+        "remember": "on"
+    },
+    {
+        "uname": "john",
+        "psw": "example",
+        "remember": "on"
+    },
+    {
+        "uname": "john",
+        "psw": "john",
+        "remember": "on"
+    },
+    {
+        "uname": "john2",
+        "psw": "john2",
+        "remember": "on"
+    },
+    {
+        "uname": "john2",
+        "psw": "john2",
+        "remember": "on"
+    },
+    {
+        "uname": "john4",
+        "psw": "john4"
+    },
+    {
+        "uname": "hdunkley",
+        "psw": "admin",
+        "remember": "on"
+    }
+]
