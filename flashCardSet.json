@@ -1,0 +1,254 @@
+[
+    {
+        "setTitle": "french 1",
+        "numberofCards": "2",
+        "flashCards": [
+            {
+                "term": "je faire",
+                "definition": "fais"
+            },
+            {
+                "term": "nous faire",
+                "definition": "faisons"
+            }
+        ]
+    },
+    {
+        "setTitle": "italian 1",
+        "numberofCards": "4",
+        "flashCards": [
+            {
+                "term": "io fare",
+                "definition": "faccio"
+            },
+            {
+                "term": "tu fare",
+                "definition": "fai"
+            },
+            {
+                "term": "lui fare",
+                "definition": "fa"
+            },
+            {
+                "term": "noi fare",
+                "definition": "facciamo"
+            }
+        ]
+    },
+    {
+        "setTitle": "french 1",
+        "numberofCards": "3",
+        "flashCards": [
+            {
+                "term": "je faire",
+                "definition": "fais"
+            },
+            {
+                "term": "nous faire",
+                "definition": "faisons"
+            },
+            {
+                "term": "vous faire",
+                "definition": "faisez"
+            }
+        ]
+    },
+    {
+        "setTitle": "french 1",
+        "numberofCards": "3",
+        "flashCards": [
+            {
+                "term": "je faire",
+                "definition": "fais"
+            },
+            {
+                "term": "nous faire",
+                "definition": "faisons"
+            },
+            {
+                "term": "vous faire",
+                "definition": "faisez"
+            }
+        ]
+    },
+    {
+        "setTitle": "french 1",
+        "numberofCards": "3",
+        "flashCards": [
+            {
+                "term": "je faire",
+                "definition": "fais"
+            },
+            {
+                "term": "nous faire",
+                "definition": "faisons"
+            },
+            {
+                "term": "vous faire",
+                "definition": "faisez"
+            }
+        ]
+    },
+    {
+        "setTitle": "french 1",
+        "numberofCards": "3",
+        "flashCards": [
+            {
+                "term": "je faire",
+                "definition": "fais"
+            },
+            {
+                "term": "nous faire",
+                "definition": "faisons"
+            },
+            {
+                "term": "vous faire",
+                "definition": "faisez"
+            }
+        ]
+    },
+    {
+        "setTitle": "french 1",
+        "numberofCards": "3",
+        "flashCards": [
+            {
+                "term": "je faire",
+                "definition": "fais"
+            },
+            {
+                "term": "nous faire",
+                "definition": "faisons"
+            },
+            {
+                "term": "vous faire",
+                "definition": "faisez"
+            }
+        ]
+    },
+    {
+        "setTitle": "french 1",
+        "numberofCards": "3",
+        "flashCards": [
+            {
+                "term": "je faire",
+                "definition": "fais"
+            },
+            {
+                "term": "nous faire",
+                "definition": "faisons"
+            },
+            {
+                "term": "vous faire",
+                "definition": "faisez"
+            }
+        ]
+    },
+    {
+        "setTitle": "french 1",
+        "numberofCards": "3",
+        "flashCards": [
+            {
+                "term": "je faire",
+                "definition": "fais"
+            },
+            {
+                "term": "nous faire",
+                "definition": "faisons"
+            },
+            {
+                "term": "vous faire",
+                "definition": "faisez"
+            }
+        ]
+    },
+    {
+        "setTitle": "french 1",
+        "numberofCards": "3",
+        "flashCards": [
+            {
+                "term": "",
+                "definition": ""
+            },
+            {
+                "term": "",
+                "definition": ""
+            },
+            {
+                "term": "",
+                "definition": ""
+            }
+        ]
+    },
+    {
+        "setTitle": "french 1",
+        "numberofCards": "3",
+        "flashCards": [
+            {
+                "term": "je faire",
+                "definition": "fais"
+            },
+            {
+                "term": "nous faire",
+                "definition": "faisons"
+            },
+            {
+                "term": "vous faire",
+                "definition": "faisez"
+            }
+        ]
+    },
+    {
+        "setTitle": "french 2",
+        "numberofCards": "3",
+        "flashCards": [
+            {
+                "term": "je avoir",
+                "definition": "ai "
+            },
+            {
+                "term": "tu avoir",
+                "definition": "as"
+            },
+            {
+                "term": "il avoir",
+                "definition": "a"
+            }
+        ]
+    },
+    {
+        "setTitle": "french 2",
+        "numberofCards": "3",
+        "flashCards": [
+            {
+                "term": "je avoir",
+                "definition": "ai "
+            },
+            {
+                "term": "tu avoir",
+                "definition": "as"
+            },
+            {
+                "term": "il avoir",
+                "definition": "a"
+            }
+        ]
+    },
+    {
+        "setTitle": "french 2",
+        "numberofCards": "3",
+        "flashCards": [
+            {
+                "term": "je avoir",
+                "definition": "ai "
+            },
+            {
+                "term": "tu avoir",
+                "definition": "as"
+            },
+            {
+                "term": "il avoir",
+                "definition": "a"
+            }
+        ]
+    }
+]

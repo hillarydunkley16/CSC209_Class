@@ -1,0 +1,1 @@
+<!DOCTYPE HTML><html><body><h1>french 2</h1></body></html>
